@@ -1,0 +1,5 @@
+# Site settings
+title: Udhan
+
+# Build Settings
+markdown: kramdown
