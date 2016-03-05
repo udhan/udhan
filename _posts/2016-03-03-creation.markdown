@@ -2,7 +2,8 @@
 layout: post
 title:  "Creation"
 date:   2016-03-03 21:40:56 -0800
-categories: en metablog
+categories: en
+tags: metablog
 ---
 
 "not the non-existent existed, nor did the existent exist then" (ná ásat āsīt ná u sát āsīt tadânīm) -- Nasadiya Sukta.

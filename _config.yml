@@ -2,4 +2,5 @@
 title: Udhan
 
 # Build Settings
+permalink: /:categories/:title 
 markdown: kramdown
