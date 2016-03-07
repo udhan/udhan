@@ -1,5 +1,5 @@
 /* Colors 
-   Teal: #00C4CC
+   Brown: #900
    Background: #fbfbfb
    Black: #252525
    Gray: #686868
@@ -33,9 +33,17 @@ header .logo{
     transition: opacity 0.3s ease 0s;
     text-transform:uppercase;
     padding:10px;
-    background: #fbfbfb;
-    color: #252525;
+    background: #900;
     font-size: 2.4rem;
+}
+
+.logo a {
+    color: #fbfbfb;
+    font-weight:bold;
+}
+
+h1 {
+    color: #900;
 }
 
 a {
