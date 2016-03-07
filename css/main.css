@@ -2,7 +2,7 @@
    Teal: #00C4CC
    Background: #fbfbfb
    Black: #252525
-   Gray: 686868
+   Gray: #686868
 */
 
 html {
@@ -58,4 +58,26 @@ a:hover {
 
 nav {
     display:none;
+}
+
+footer {
+    margin-top: 1rem;
+    max-width:48rem;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+footer hr {
+    border:0px none;
+    height:2px;
+    width:25%;
+    background-color:#686868;
+}
+footer span {
+    margin: 0px 7px;
+}
+
+footer a {
+    padding: 5px 7px;
 }
