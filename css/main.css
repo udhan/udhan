@@ -1,4 +1,39 @@
+/* Colors 
+   Teal: #00C4CC
+   Background: #fbfbfb
+   Black: #252525
+   Gray: 686868
+*/
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    line-height:1.6;
+    font-size:1.6rem;
+    background: #fbfbfb;
+    color: #252525
+}
+
+a {
+    text-decoration:none;
+    color: #252525
+}
+
+a.link, a.visited {
+
+}
+
+a:hover {
+    color: #000;
+    text-decoration:underline;
+}
+
+.dim {
+    color: #686868;
 }
