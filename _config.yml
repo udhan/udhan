@@ -1,6 +1,7 @@
 # Site settings
 title: Udhan
+url: http://www.udhan.com
+permalink: /:categories/:title 
 
 # Build Settings
-permalink: /:categories/:title 
 markdown: kramdown
