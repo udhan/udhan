@@ -6,6 +6,10 @@
 */
 
 
+figure, pre, code {
+    margin:0;
+}
+
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -82,6 +86,10 @@ nav {
     display:none;
 }
 
+.post-meta time {
+    color: #686868;
+}
+
 footer {
     margin-top: 1rem;
     max-width:48rem;
@@ -104,6 +112,11 @@ footer a {
     padding: 5px 7px;
 }
 
+.highlight {
+    border:1px solid #ddd;
+    border-radius: 2px;
+    padding:5px;
+}
 
 @media screen and (max-width : 1200px) {
     .logo {
@@ -115,3 +128,4 @@ footer a {
     h3 { font-size: 2.2rem; line-height:1.13636;}
     h4 { font-size: 1.8rem; line-height:1.11111;}
 }
+

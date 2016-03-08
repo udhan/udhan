@@ -5,3 +5,7 @@ permalink: /:categories/:title
 
 # Build Settings
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge

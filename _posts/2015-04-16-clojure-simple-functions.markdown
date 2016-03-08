@@ -20,16 +20,20 @@ Lets try to find out code difference between A and Ⓐ
 
 We got both numbers. Lets write simple function to do the conversion.
 
-    (defn bub-inc [c]
-      (if (Character/isUpperCase c)
-        9333 9327))
+{% highlight clojure %}
 
-    (defn bub [c]
-      (char (+ (int c) (bub-inc c))))
+(defn bub-inc [c]
+  (if (Character/isUpperCase c)
+    9333 9327))
 
-    (defn bubs [s]
-      (apply str (map bub s)))
-      
+(defn bub [c]
+  (char (+ (int c) (bub-inc c))))
+
+(defn bubs [s]
+  (apply str (map bub s)))
+  
+{% endhighlight %}
+
 Function named bubs achieves what problem statement stated. Following is summary of what we understand from the bubs program.
  
  - In clojure functions are defined using `defn`
