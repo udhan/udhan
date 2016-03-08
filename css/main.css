@@ -15,8 +15,8 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    line-height:1.6;
     font-size:1.6rem;
+    line-height:1.375;
     background: #fbfbfb;
     color: #252525
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .logo{
-    opacity: 0.8;
+    opacity: 0.75;
     position: fixed;
     top: 15px;
     transition: opacity 0.3s ease 0s;
@@ -44,9 +44,21 @@ body {
     font-weight:bold;
 }
 
-h1 {
+.logo a:hover {
+    text-decoration:none;
+    opacity:1;
+    color: #fbfbfb;
+}
+
+h1, h2, h3, h46 {
     color: #900;
 }
+
+h1 { font-size: 4.8rem; line-height:1.05;}
+h2 { font-size: 3.6rem; line-height:1.25;}
+h3 { font-size: 2.8rem; line-height:1.25;}
+h4 { font-size: 1.8rem; line-height:1.22222222;}
+
 
 a {
     text-decoration:none;
@@ -97,4 +109,9 @@ footer a {
     .logo {
         position: inherit;
     }
+
+    h1 { font-size: 3.2rem; line-height:1.25;}
+    h2 { font-size: 2.6rem; line-height:1.15384;}
+    h3 { font-size: 2.2rem; line-height:1.13636;}
+    h4 { font-size: 1.8rem; line-height:1.11111;}
 }
