@@ -78,6 +78,23 @@ a:hover {
     text-decoration:underline;
 }
 
+ul, ol {
+    padding:0;
+    padding-left:2rem;
+    margin:0;
+    margin-bottom:1rem;
+}
+
+li {
+    margin:0;
+    margin-bottom:0.5rem;
+}
+
+p {
+    margin:0;
+    margin-bottom:1rem;
+}
+
 .dim {
     color: #686868;
 }
@@ -116,6 +133,8 @@ footer a {
     border:1px solid #ddd;
     border-radius: 2px;
     padding:5px;
+    margin:0;
+    margin-bottom:1rem;
 }
 
 @media screen and (max-width : 1200px) {
