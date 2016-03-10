@@ -6,7 +6,7 @@
 */
 
 
-figure, pre, code, body, ul, ol, li, h1, h2, h3, h4  {
+figure, pre, code, body, ul, ol, li, hr, h1, h2, h3 {
     margin:0;
 }
 
@@ -97,6 +97,7 @@ hr {
     height:1px;
     width:100%;
     background-color:#eee;
+    margin-top:1rem;
 }
 .dim {
     color: #686868;
@@ -122,8 +123,9 @@ footer {
 footer hr {
     border:0px none;
     height:2px;
-    width:25%;
+    width:40%;
     background-color:#686868;
+    margin:auto;
 }
 footer span {
     margin: 0px 7px;
