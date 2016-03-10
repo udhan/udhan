@@ -12,8 +12,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <p>{{post.excerpt}}</p>
+        <span class="post-meta">{{post.tags | join: ', '}} | {{ post.date | date: "%b %-d, %Y" }}</span>
+        <hr/>
 
       </div>
     {% endfor %}
