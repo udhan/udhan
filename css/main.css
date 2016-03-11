@@ -107,13 +107,31 @@ nav {
     display:none;
 }
 
+.post-nav {
+    margin:2rem 0;
+    display:inline-block;
+    width:100%;
+}
+
+.post-nav .next {
+    float:right;
+    width:49%;
+    text-align:right;
+}
+
+.post-nav .prev {
+    float:left;
+    width:49%;
+    text-align:left;
+}
+
 .post-meta {
     color: #686868;
     font-size: 1.6rem;
 }
 
 footer {
-    margin-top: 1rem;
+    margin-top: 2rem;
     max-width:48rem;
     margin-left:auto;
     margin-right:auto;
