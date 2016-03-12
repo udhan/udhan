@@ -9,3 +9,6 @@ highlighter: rouge
 
 kramdown:
   syntax_highlighter: rouge
+
+# Custom Settings
+comments: true
