@@ -14,23 +14,7 @@
           <a href="{{site.url}}" title="Udhan">{{site.title}}</a>
         </div>
         {% include nav.html %}
-        <div class="container lang-selector">
-          <ul>
-            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-            {% for post in posts %}
-            <li>
-              <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-            </li>
-            {% endfor %}
-
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-            <li>
-              <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
+        {% include lang.html %}
       </header>
     <div class="container">
       <div class="content">
@@ -42,5 +26,6 @@
       <span><a href="https://twitter.com/udhanhq" title="Udhan twitter handle">@udhanhq</a></span>
       <span><a href="https://github.com/udhan" title="Udhan github account">Github</a></span>
     </footer>
+    {% include analytics.html %}
   </body>
 </html>
